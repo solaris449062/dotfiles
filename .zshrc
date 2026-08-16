@@ -22,7 +22,3 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # node 22 (brew keg-only formula) ahead of the pkg-installed node 18 in /usr/local/bin
 export PATH="/opt/homebrew/opt/node@22/bin:$PATH"
-
-# times
-export today="$(date +%Y-%m-%d)"
-export now="$(date +%Y-%m-%dT%H-%M-%S)"
